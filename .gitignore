@@ -1,0 +1,17 @@
+# Dataset (слишком большой для GitHub, скачать через download.py)
+*.csv
+
+# Задание
+Лабы.docx
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
