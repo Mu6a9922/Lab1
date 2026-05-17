@@ -19,12 +19,12 @@
 
 | ЛР | Ветка | Файл | Этап |
 |---|---|---|---|
-| №1 | `main` | `lab1_eda.ipynb` | Исследовательский анализ данных (EDA) |
-| №2 | `lab2` | `lab2_preprocessing.ipynb` | Очистка и подготовка признаков |
-| №3 | `lab3` | `lab3_linear_regression.ipynb` | Базовая модель — Linear Regression |
-| №4 | `lab4` | `lab4_model_tuning.ipynb` | Улучшение модели и сравнение алгоритмов |
-| №5 | `lab5` | `lab5_model_interpretation.ipynb` | Интерпретация и анализ важности признаков |
-| **№6** | **`lab6`** | **`lab6_final_project.ipynb`** | **Итоговый мини-проект** |
+| №1 | `main` | `notebooks/lab1_eda.ipynb` | Исследовательский анализ данных (EDA) |
+| №2 | `lab2` | `notebooks/lab2_preprocessing.ipynb` | Очистка и подготовка признаков |
+| №3 | `lab3` | `notebooks/lab3_linear_regression.ipynb` | Базовая модель — Linear Regression |
+| №4 | `lab4` | `notebooks/lab4_model_tuning.ipynb` | Улучшение модели и сравнение алгоритмов |
+| №5 | `lab5` | `notebooks/lab5_model_interpretation.ipynb` | Интерпретация и анализ важности признаков |
+| **№6** | **`lab6`** | **`notebooks/lab6_final_project.ipynb`** | **Итоговый мини-проект** |
 
 Финальная версия с интеграцией всех этапов — в ветке `lab6`.
 
@@ -89,7 +89,7 @@ python download.py
 
 ### 3. Запустить ноутбук
 ```bash
-jupyter notebook lab6_final_project.ipynb
+jupyter notebook notebooks/lab6_final_project.ipynb
 ```
 
 ## Этическое использование
@@ -104,14 +104,15 @@ jupyter notebook lab6_final_project.ipynb
 
 ```
 .
-├── lab1_eda.ipynb                    # ЛР №1 — EDA
-├── lab2_preprocessing.ipynb          # ЛР №2 — Подготовка данных
-├── lab3_linear_regression.ipynb      # ЛР №3 — Linear Regression
-├── lab4_model_tuning.ipynb           # ЛР №4 — GridSearch + RandomForest
-├── lab5_model_interpretation.ipynb   # ЛР №5 — MDI, Permutation, SHAP
-├── lab6_final_project.ipynb          # ЛР №6 — Итоговый проект
-├── presentation.md                   # Презентация (Marp)
-├── download.py                       # Скрипт загрузки датасета
-├── README.md                         # Этот файл
-└── .gitignore                        # Игнор .csv и .docx
+├── notebooks/
+│   ├── lab1_eda.ipynb                    # ЛР №1 — EDA
+│   ├── lab2_preprocessing.ipynb          # ЛР №2 — Подготовка данных
+│   ├── lab3_linear_regression.ipynb      # ЛР №3 — Linear Regression
+│   ├── lab4_model_tuning.ipynb           # ЛР №4 — GridSearch + RandomForest
+│   ├── lab5_model_interpretation.ipynb   # ЛР №5 — MDI, Permutation, SHAP
+│   └── lab6_final_project.ipynb          # ЛР №6 — Итоговый проект
+├── presentation.md                       # Презентация (Marp)
+├── download.py                           # Скрипт загрузки датасета
+├── README.md                             # Этот файл
+└── .gitignore                            # Игнор .csv и .docx
 ```
