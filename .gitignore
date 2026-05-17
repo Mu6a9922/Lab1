@@ -3,7 +3,7 @@
 
 # Задание
 Лабы.docx
-
+*.docx
 # Python
 __pycache__/
 *.py[cod]
