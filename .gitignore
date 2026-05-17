@@ -3,6 +3,7 @@
 
 # Задание
 Лабы.docx
+*.docx
 
 # Python
 __pycache__/
