@@ -1,8 +1,8 @@
 # Dataset (слишком большой для GitHub, скачать через download.py)
 *.csv
 
-# Задание
-Лабы.docx
+# Задания (все .docx)
+*.docx
 
 # Python
 __pycache__/
@@ -15,4 +15,3 @@ __pycache__/
 
 # VSCode
 .vscode/
-DA.Lab2 (1).docx
